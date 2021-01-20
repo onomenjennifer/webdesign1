@@ -1,0 +1,353 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Goldman&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Castoro&display=swap");
+body {
+  margin: 0;
+}
+header {
+  height: 60px;
+  background: rgba(110, 110, 35, 0.5);
+  border-top: 2px solid aqua;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4%;
+}
+.logo .first {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: aqua;
+  font-family: "Montserrat", sans-serif;
+}
+.logo .second {
+  font-size: 22px;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: azure;
+  font-family: "Montserrat", sans-serif;
+}
+nav a {
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  text-transform: capitalize;
+  font-weight: bolder;
+  margin: 10px;
+  font-family: "Goldman", cursive;
+  /* font-family: "Montserrat", sans-serif; */
+}
+nav i {
+  color: aqua;
+  font-size: 22px;
+  font-family: "Montserrat", sans-serif;
+}
+.banner {
+  background: linear-gradient(rgba(110, 140, 223, 0.5), rgba(220, 111, 33, 0.5)),
+    url(images/pexels-jess-harper-sunday-2897035.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.banner span {
+  font-size: 44px;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: white;
+  font-family: muli;
+  letter-spacing: 4px;
+}
+.banner p {
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: pink;
+  font-family: "Castoro", serif;
+  border: 1px solid snow;
+  padding: 12px;
+}
+.flex-container {
+  display: flex;
+  height: 300px;
+  justify-content: space-between;
+  padding: 0 4%;
+}
+.flex-container div {
+  flex: 1;
+  height: 100%;
+  margin: -70px 12px 0 0;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-transform: capitalize;
+}
+.flex-container div span {
+  width: 150px;
+  padding: 20px;
+  border: 2px solid whitesmoke;
+  text-align: center;
+  text-transform: capitalize;
+}
+.flex-container div h3 {
+  font-size: 27px;
+  font-family: muli;
+}
+.flex-child1 {
+  background: linear-gradient(rgba(0, 5, 9, 0.5), rgb(2, 3, 8, 0.9)),
+    url(images/pexels-john-1369068.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.flex-child2 {
+  background: linear-gradient(rgba(0, 0, 1, 0.8), rgb(1, 1, 3, 0.5)),
+    url(images/pexels-jess-harper-sunday-2897035.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.flex-child3 {
+  background: linear-gradient(rgba(1, 5, 9, 0.5), rgb(1, 2, 1, 0.9)),
+    url(images/pexels-julie-aagaard-2766334.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.baner {
+  background: linear-gradient(rgba(1.3, 2, 0.8), rgba(4, 6, 1, 0.9)),
+    url(images/pexels-jess-harper-sunday-2897035.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+footer {
+  min-height: 200px;
+  background: #000;
+  color: #fafafa;
+}
+footer h2 {
+  text-align: center;
+  padding: 10px;
+}
+.contact-con {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 30px;
+}
+.contact-con a {
+  text-decoration: none;
+  color: #fafafa;
+}
+.contact div {
+  padding: 5px;
+  margin: 10px;
+}
+.icon-bg {
+  height: 42px;
+  width: 42px;
+  border-radius: 100%;
+  background: #fafafa;
+  display: grid;
+  place-items: center;
+  color: black;
+  margin: 7px;
+}
+.icon-wrapper {
+  display: flex;
+  align-items: center;
+}
+.icon-bg:hover {
+  background: papayawhip;
+}
+.end {
+  background: red;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 900;
+  text-transform: capitalize;
+  height: 80px;
+  display: grid;
+  place-items: center;
+}
+.end i {
+  padding: 2px;
+}
+.about-banner {
+  background: aqua;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  letter-spacing: 5px;
+}
+.banner-1 {
+  text-transform: uppercase;
+  font-size: 100px;
+  color: #fafafa;
+  font-weight: bold;
+}
+.banner-2 {
+  text-transform: uppercase;
+  font-size: 50px;
+  color: black;
+  font-weight: 100px;
+}
+.about-container {
+  display: grid;
+  grid-template-columns: 1fr 500px;
+  background: papayawhip;
+  align-items: center;
+  padding: 0 3%;
+}
+
+.about-desc h1 {
+  text-transform: uppercase;
+  font-family: muli;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 12px;
+}
+.about-desc p {
+  font-size: 17px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.about-container div h2 {
+  font-size: 32px;
+  font-weight: 500;
+  color: black;
+  text-transform: capitalize;
+}
+.aboutchild1 {
+  /* display: flex; */
+  background: #000;
+  /* height: 400px; */
+  text-align: center;
+  padding: 2%;
+}
+
+.abtmin {
+  color: white;
+  font-size: 32px;
+  text-transform: uppercase;
+  display: grid;
+}
+.abtmin img {
+  border-radius: 100%;
+  border-color: aqua;
+  width: 300px;
+  height: 300px;
+  justify-self: center;
+  border: 5px solid aqua;
+}
+.reg-banner {
+  height: 250px;
+  background: linear-gradient(rgba(11, 23, 11, 0.5), rgba(255, 56, 211, 0.5)),
+    url(images/pexels-julie-aagaard-2766334.jpg);
+  background-position-x: 40%;
+  background-position-y: 40%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+}
+
+span a {
+  text-decoration: none;
+}
+.reg-banner h2 {
+  text-transform: uppercase;
+  font-size: 32px;
+  font-style: italic;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+}
+.gallery-wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem;
+  justify-content: center;
+}
+.gallery-wrapper img {
+  height: 270px;
+  width: 100%;
+}
+
+.view {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+.mask {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-attachment: fixed;
+}
+
+.mask {
+  transition: all 0.4s ease-in-out;
+  opacity: 0;
+}
+.mask:hover {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(rgb(133, 32, 32), rgb(33, 243, 150));
+  overflow: hidden;
+  opacity: 0.9;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mask-bg {
+  background: linear-gradient(rgba(11, 23, 11, 0.5), rgba(255, 56, 211, 0.5)),
+    url(images/pexels-julie-aagaard-2766334.jpg);
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-position-x: 40%;
+  background-position-y: 40%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fafafa;
+}
+body .carousel img {
+  height: 550px;
+  object-fit: cover;
+}
+/* .mask-wrapper {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+} */
+body .carousel-caption {
+  height: 50%;
+}
+body .carousel-caption h5 {
+  font-size: 45px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+body .row img {
+  height: 250px;
+}
